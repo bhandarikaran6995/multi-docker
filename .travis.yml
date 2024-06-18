@@ -23,7 +23,7 @@ after_success:
 
   #Take those images and push them to docker hub
 
-  - docker push kb/multi-client ./client
-  - docker push kb/multi-nginx ./nginx
-  - docker push kb/multi-server ./server
-  - docker push kb/multi-worker ./worker  
+  - docker push kb/multi-client
+  - docker push kb/multi-nginx
+  - docker push kb/multi-server
+  - docker push kb/multi-worker
